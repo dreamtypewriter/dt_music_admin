@@ -2,7 +2,7 @@
     <div>
         <head-top></head-top>
         <div class="container">
-            <img src="static/musiclogo.png" alt="logo" width="170" height="46">
+            <img src="../assets/img/musiclogo.png" alt="logo" width="170" height="46">
             <br/>
             <p>单曲数量:{{countList.songCount}}</p>
             <p>歌单数量:{{countList.songListCount}}</p>
