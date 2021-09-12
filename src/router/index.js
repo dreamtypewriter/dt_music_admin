@@ -6,12 +6,6 @@ Vue.use(Router)
 const login = r => require.ensure([], () => r(require('@/page/login')), 'login');
 const manage = r => require.ensure([], () => r(require('@/page/manage')), 'manage');
 const home = r => require.ensure([], () => r(require('@/page/home')), 'home');
-// const visitor = r => require.ensure([], () => r(require('@/page/visitor')), 'visitor');
-// const uploadImg = r => require.ensure([], () => r(require('@/page/uploadImg')), 'uploadImg');
-const vueEdit = r => require.ensure([], () => r(require('@/page/vueEdit')), 'vueEdit');
-// const sendMessage = r => require.ensure([], () => r(require('@/page/sendMessage')), 'sendMessage');
-// const explain = r => require.ensure([], () => r(require('@/page/explain')), 'explain');
-// 新增部分
 const singerList = r => require.ensure([], () => r(require('@/page/singerList')), 'singerList');
 const commentList = r => require.ensure([], () => r(require('@/page/commentList')), 'commentList');
 const albumList = r => require.ensure([], () => r(require('@/page/albumList')), 'albumList');
@@ -81,38 +75,7 @@ const routes = [
             path: '/adminSet',
             component: adminSet,
             meta: ['管理员设置', '信息更新']
-        }
-
-            /*
-            {
-            path: '/visitor',
-            component: visitor,
-            meta: ['图表', '用户分布'],
-        },{
-            path: '/newMember',
-            component: newMember,
-            meta: ['图表', '用户数据'],
-        }, {
-            path: '/uploadImg',
-            component: uploadImg,
-            meta: ['文本编辑', 'MarkDown'],
-        }, {
-            path: '/vueEdit',
-            component: vueEdit,
-            meta: ['编辑', '文本编辑'],
-        }, {
-            path: '/adminSet',
-            component: adminSet,
-            meta: ['设置', '管理员设置'],
-        }, {
-            path: '/sendMessage',
-            component: sendMessage,
-            meta: ['设置', '发送通知'],
-        }, {
-            path: '/explain',
-            component: explain,
-            meta: ['说明', '说明'],
-        }*/]
+        }]   
     }
 ]
 
