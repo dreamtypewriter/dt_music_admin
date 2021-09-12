@@ -1,8 +1,8 @@
 {
-    "name": "vue2-manage",
-    "version": "1.0.1",
-    "description": "vue2-manage",
-    "author": "cangdu <1264889788@qq.com>",
+    "name": "dt_music_admin",
+    "version": "0.0.1",
+    "description": "dt_music_admin",
+    "author": "From cangdu <1264889788@qq.com>",
     "license": "GPL",
     "private": true,
     "scripts": {

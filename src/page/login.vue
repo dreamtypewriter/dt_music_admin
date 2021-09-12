@@ -3,7 +3,7 @@
         <transition name="form-fade" mode="in-out">
             <section class="form_contianer" v-show="showLogin">
                 <el-row>
-                    <img src="static/musiclogo.png" alt="logo图" height="46px" width="170px">
+                    <img src="../assets/img/musiclogo.png" alt="logo" height="46px" width="170px">
                 </el-row>
                 <el-form :model="loginForm" :rules="rules" ref="loginForm">
                     <el-form-item prop="adminName">
